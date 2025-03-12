@@ -79,8 +79,6 @@ The script includes the following dependencies in the Spark session:
 - The script uses **append mode** when writing to MongoDB.
 - Make sure the S3 bucket contains the required Parquet file before executing the script.
 
-## License
-This project is open-source and available for modification and distribution.
 
 ---
 **Author:** Royer Arenas  
