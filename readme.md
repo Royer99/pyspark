@@ -7,7 +7,7 @@ This script utilizes **PySpark** to read a Parquet file from an **Amazon S3** bu
 Ensure you have the following installed and configured:
 
 - Python 3.x
-- Apache Spark
+- Apache Spark 3.5.5
 - Hadoop AWS libraries
 - MongoDB Spark Connector
 - AWS S3 credentials
@@ -41,7 +41,7 @@ source myenv/bin/activate
 Install the required dependencies using:
 
 ```bash
-pip install pyspark python-dotenv
+pip install -r requirements.txt
 ```
 
 ## Configuration
